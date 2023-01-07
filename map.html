@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_107768e7dcb9bb40f03a776b5335300f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_107768e7dcb9bb40f03a776b5335300f" ></div>
+        
+</body>
+<script>    
+    
+            var map_107768e7dcb9bb40f03a776b5335300f = L.map(
+                "map_107768e7dcb9bb40f03a776b5335300f",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8aaecdcd92b1089b848d1e64897759da = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_107768e7dcb9bb40f03a776b5335300f);
+        
+    
+            var marker_0d5a3ea0129f26115a9a36d3341d5e60 = L.marker(
+                [35.636166, 139.500398],
+                {}
+            ).addTo(map_107768e7dcb9bb40f03a776b5335300f);
+        
+    
+            var icon_058d8e321afbb262b0c6ad272385db30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d5a3ea0129f26115a9a36d3341d5e60.setIcon(icon_058d8e321afbb262b0c6ad272385db30);
+        
+    
+        var popup_41a500f99f6d5beb0b00d14d40b9e69f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f806d0ce5f5c7e7bf574a2929a972cc = $(`<div id="html_8f806d0ce5f5c7e7bf574a2929a972cc" style="width: 100.0%; height: 100.0%;">稲城</div>`)[0];
+            popup_41a500f99f6d5beb0b00d14d40b9e69f.setContent(html_8f806d0ce5f5c7e7bf574a2929a972cc);
+        
+
+        marker_0d5a3ea0129f26115a9a36d3341d5e60.bindPopup(popup_41a500f99f6d5beb0b00d14d40b9e69f)
+        ;
+
+        
+    
+    
+            var marker_88f49f6a106b3643cce93870048fac02 = L.marker(
+                [35.619325, 139.472189],
+                {}
+            ).addTo(map_107768e7dcb9bb40f03a776b5335300f);
+        
+    
+        var popup_4023729bf6d5652a5cd07e6291fc05d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3715fe1e7cd946ef00af87fcb794004e = $(`<div id="html_3715fe1e7cd946ef00af87fcb794004e" style="width: 100.0%; height: 100.0%;">若葉台</div>`)[0];
+            popup_4023729bf6d5652a5cd07e6291fc05d1.setContent(html_3715fe1e7cd946ef00af87fcb794004e);
+        
+
+        marker_88f49f6a106b3643cce93870048fac02.bindPopup(popup_4023729bf6d5652a5cd07e6291fc05d1)
+        ;
+
+        
+    
+    
+            var marker_895a59825a274ccf0e20f84a988ebbd3 = L.marker(
+                [35.630102, 139.448204],
+                {}
+            ).addTo(map_107768e7dcb9bb40f03a776b5335300f);
+        
+    
+        var popup_e9928cb4c1739acac230506995193c25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_254422c6aecaf22aa68b372f89761c03 = $(`<div id="html_254422c6aecaf22aa68b372f89761c03" style="width: 100.0%; height: 100.0%;">京王永山</div>`)[0];
+            popup_e9928cb4c1739acac230506995193c25.setContent(html_254422c6aecaf22aa68b372f89761c03);
+        
+
+        marker_895a59825a274ccf0e20f84a988ebbd3.bindPopup(popup_e9928cb4c1739acac230506995193c25)
+        ;
+
+        
+    
+    
+            var marker_b56bf52b56fd1a980671b2ae5e2da30e = L.marker(
+                [35.629972, 139.447943],
+                {}
+            ).addTo(map_107768e7dcb9bb40f03a776b5335300f);
+        
+    
+        var popup_773233eb8aff3aa8ccaafc3b3d123132 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15b091fcfdf0c162a0e092511af20bde = $(`<div id="html_15b091fcfdf0c162a0e092511af20bde" style="width: 100.0%; height: 100.0%;">小田急永山</div>`)[0];
+            popup_773233eb8aff3aa8ccaafc3b3d123132.setContent(html_15b091fcfdf0c162a0e092511af20bde);
+        
+
+        marker_b56bf52b56fd1a980671b2ae5e2da30e.bindPopup(popup_773233eb8aff3aa8ccaafc3b3d123132)
+        ;
+
+        
+    
+    
+            var marker_2c187905ce73aac90d4047dd4a6beb60 = L.marker(
+                [35.624902, 139.424298],
+                {}
+            ).addTo(map_107768e7dcb9bb40f03a776b5335300f);
+        
+    
+        var popup_2681388ff347ce0da81539b53db5d15f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9582f67f61ebe0d4b93bbdf7a49b5af1 = $(`<div id="html_9582f67f61ebe0d4b93bbdf7a49b5af1" style="width: 100.0%; height: 100.0%;">小田急多摩センター</div>`)[0];
+            popup_2681388ff347ce0da81539b53db5d15f.setContent(html_9582f67f61ebe0d4b93bbdf7a49b5af1);
+        
+
+        marker_2c187905ce73aac90d4047dd4a6beb60.bindPopup(popup_2681388ff347ce0da81539b53db5d15f)
+        ;
+
+        
+    
+    
+            var marker_7728d4a89537b86a68b618441441841c = L.marker(
+                [35.616672, 139.411622],
+                {}
+            ).addTo(map_107768e7dcb9bb40f03a776b5335300f);
+        
+    
+            var icon_a86a337fa9988ae2b659f93d603a5dbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7728d4a89537b86a68b618441441841c.setIcon(icon_a86a337fa9988ae2b659f93d603a5dbf);
+        
+    
+        var popup_1ea2acfec957c263905cab21c22d7fcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_966d4cf72757989845d6bade509d666f = $(`<div id="html_966d4cf72757989845d6bade509d666f" style="width: 100.0%; height: 100.0%;">唐木田</div>`)[0];
+            popup_1ea2acfec957c263905cab21c22d7fcb.setContent(html_966d4cf72757989845d6bade509d666f);
+        
+
+        marker_7728d4a89537b86a68b618441441841c.bindPopup(popup_1ea2acfec957c263905cab21c22d7fcb)
+        ;
+
+        
+    
+    
+            var poly_line_cfeff7075c978a5149bb97b9289eba2d = L.polyline(
+                [[35.636166, 139.500398], [35.619325, 139.472189], [35.630102, 139.448204], [35.629972, 139.447943], [35.624902, 139.424298], [35.616672, 139.411622]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_107768e7dcb9bb40f03a776b5335300f);
+        
+    
+            map_107768e7dcb9bb40f03a776b5335300f.fitBounds(
+                [[35.616672, 139.411622], [35.636166, 139.500398]],
+                {}
+            );
+        
+</script>
