@@ -92,7 +92,7 @@ def plot_route(lists):
 
     line= folium.vector_layers.PolyLine(
                 locations=loc,
-                color='blue',                                  
+                color='blue',
                 weight=2)
     m.add_child(line)
 
